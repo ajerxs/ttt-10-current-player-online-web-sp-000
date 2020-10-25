@@ -1,6 +1,6 @@
 board = ["X","O","X","O","X","O","X","O","X"]
 def turn_count(board)
-  counter = 0
+  counter = 1
   board.each do |count|
     puts "#{counter}"
     counter += 1
