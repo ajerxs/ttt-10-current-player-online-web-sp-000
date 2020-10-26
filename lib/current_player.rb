@@ -11,6 +11,11 @@ def turn_count(board)
   counter
 end
 
-def current_player(board) ? turn_count(board).even? return "X" :
-  ? turn_count(board).odd? return "O" :
+def current_player(board)
+  if turn_count(board).even?
+    return "X"
+  end
+  if turn_count(board).odd?
+    return "O"
+  end
 end
